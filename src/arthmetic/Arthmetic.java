@@ -11,6 +11,11 @@ import java.util.Scanner;
  *
  * @author Gurveer Singh
  */
+
+        enum Singh
+                {
+                         Add, Subtract,Multiplication;
+                }
 public class Arthmetic {
 
     /**
@@ -31,15 +36,11 @@ public class Arthmetic {
          else{
                  System.out.println("Error");}
          
-    
-        public enum Singh()
-                {
-            
-                         Add, Subtract,Multiplication
-              
-                }
-         Singh operation= Singh.Add;
+         Singh operation= Singh.Add;//
+         System.out.println(operation);
+         
     }
+}
 
              
     
